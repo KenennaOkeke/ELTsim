@@ -10,6 +10,11 @@ A calculator that estimates your data usage. Statistics are processed for each u
 ### Process
 ![ELTsim Sequence Diagram](art/process.png)
 
+### End Product
+Info from the previous plays is used to generate further statistics:
+![ELTsim DB](art/product.png)
+*a mean of means, mean of mins, or mean of maxes so to speak*
+
 ### Breakdown
 1. The frontend asks the backend for a calculation
 2. The backend provides the calculation to the frontend, and sends the statistical request to EvoELT via Message Queuing Service (AWS SQS)
