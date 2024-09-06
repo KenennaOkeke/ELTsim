@@ -1,0 +1,96 @@
+{
+  "gameName": "bandwidth_calculator",
+  "gameDisplayName": "Bandwidth Calculator",
+  "inputData": {
+    "inputs": [
+      {
+        "name": "video_streaming_4k",
+        "label": "4k Video Streaming",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      },
+      {
+        "name": "video_streaming_hd",
+        "label": "HD Video Streaming",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      },
+      {
+        "name": "video_streaming_sd",
+        "label": "SD Video Streaming",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      },
+      {
+        "name": "music_streaming",
+        "label": "Music Steaming",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      },
+      {
+        "name": "gaming",
+        "label": "Gaming",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      },
+      {
+        "name": "social_media",
+        "label": "Social Media Browsing",
+        "type": "number",
+        "default": 0,
+        "min": 0,
+        "max": 24
+      }
+    ]
+  },
+  "graphData": {
+  },
+  "outputData": {
+    "outputs": [
+      {
+        "name": "empty_results",
+        "label": "Results",
+        "type": "empty"
+      },
+      {
+        "name": "min_bandwidth",
+        "label": "Min. Bandwidth (GB Monthly)",
+        "type": "integer"
+      },
+      {
+        "name": "average_bandwidth",
+        "label": "Average Bandwidth (GB Monthly)",
+        "type": "integer"
+      },
+      {
+        "name": "max_bandwidth",
+        "label": "Max Bandwidth (GB Monthly)",
+        "type": "integer"
+      }
+    ]
+  },
+  "pageData": {
+    "pages": {
+      "disclaimer": {
+        "name": "disclaimer",
+        "title": "Disclaimer",
+        "content": "***<i>This is a rough estimate and should not be taken factually. Check with your service provide for more accurate information.</i>"
+      },
+      "story": {
+        "name": "story",
+        "title": "The Story",
+        "content": "Is unlimited data really <u>unlimited</u>? Or, is there a throttle on speed later on? Fine print, fine print!"
+      }
+    }
+  }
+}
