@@ -59,22 +59,22 @@
     "outputs": [
       {
         "name": "empty_results",
-        "label": "Results",
+        "label": "Results (all in GB Monthly)",
         "type": "empty"
       },
       {
         "name": "min_bandwidth",
-        "label": "Min. Bandwidth (GB Monthly)",
+        "label": "Min. Bandwidth",
         "type": "integer"
       },
       {
         "name": "average_bandwidth",
-        "label": "Average Bandwidth (GB Monthly)",
+        "label": "Average Bandwidth",
         "type": "integer"
       },
       {
         "name": "max_bandwidth",
-        "label": "Max Bandwidth (GB Monthly)",
+        "label": "Max Bandwidth",
         "type": "integer"
       }
     ]
