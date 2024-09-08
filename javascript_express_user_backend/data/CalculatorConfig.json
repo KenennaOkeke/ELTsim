@@ -4,52 +4,44 @@
   "inputData": {
     "inputs": [
       {
+        "name": "questions",
+        "label": "Activity's Daily Hours"
+      },
+      {
         "name": "video_streaming_4k",
         "label": "4k Video Streaming",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       },
       {
         "name": "video_streaming_hd",
         "label": "HD Video Streaming",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       },
       {
         "name": "video_streaming_sd",
         "label": "SD Video Streaming",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       },
       {
         "name": "music_streaming",
         "label": "Music Steaming",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       },
       {
         "name": "gaming",
         "label": "Gaming",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       },
       {
         "name": "social_media",
         "label": "Social Media Browsing",
         "type": "number",
-        "default": 0,
-        "min": 0,
-        "max": 24
+        "default": 0
       }
     ]
   },
@@ -58,9 +50,8 @@
   "outputData": {
     "outputs": [
       {
-        "name": "empty_results",
-        "label": "Results (all in GB Monthly)",
-        "type": "empty"
+        "name": "answers",
+        "label": "Data Usage (GB Monthly)"
       },
       {
         "name": "min_bandwidth",

@@ -59,6 +59,11 @@ thead, thead .text-gray-500 {
 .output-data {
     color: #4a4a4a !important;
 }
+
+#inputDataLabel_questions, .outputData_answers{
+ font-weight: bold;
+    font-size: .95rem;
+}
 </style>
 
 <script>
