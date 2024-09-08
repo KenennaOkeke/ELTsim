@@ -36,7 +36,9 @@ export default {
 			vm.clearErrors();
 			const formData = new FormData();
 			vm.config.inputData.inputs.forEach(input => {
-				formData.append(input.name, document.getElementById("inputData_" + input.name).value);
+				if(input.type !== undefined) {
+					formData.append(input.name, document.getElementById("inputData_" + input.name).value);
+				}
 			});
 			formData.append('username', vm.username)
 			axios({
