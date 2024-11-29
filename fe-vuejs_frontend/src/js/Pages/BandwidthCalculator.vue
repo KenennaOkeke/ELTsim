@@ -2,7 +2,7 @@
     <game-container>
         <button-group>
             <game-button @click="clear">Clear</game-button>
-            <game-button @click="compute">Calculate</game-button>
+            <game-button @click="compute">Set Activities</game-button>
             <game-button @click="showPage('story')">The Story</game-button>
             <game-button @click="showPage('disclaimer')">Disclaimer</game-button>
         </button-group>
@@ -79,7 +79,7 @@ import ModalPage from '../Components/Game/ModalPage.vue';
 
 export default {
 	name: 'CaffeineSimulator',
-	url: "a",
+	url: "",
 	mixins: [GameMixin],
 	components: {
 		GameContainer,
@@ -111,7 +111,7 @@ export default {
 		vm.backendHost = "http://127.0.0.1:5678"
 		vm.getConfig();
 		while (!vm.username || vm.username === "") {
-			vm.username = prompt('How will you be named?', 'Info Squirrel')
+			vm.username = prompt('Character Name?', '')
 		}
 	}
 }

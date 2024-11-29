@@ -75,12 +75,12 @@
       "disclaimer": {
         "name": "disclaimer",
         "title": "Disclaimer",
-        "content": "***<i>This is a rough estimate and should not be taken factually. Check with your service provide for more accurate information.</i>"
+        "content": "***<i>This character's activities and metrics will be affected.</i>"
       },
       "story": {
         "name": "story",
         "title": "The Story",
-        "content": "Is unlimited data really <u>unlimited</u>? Or, is there a throttle on speed later on? Fine print, fine print!"
+        "content": "How does a character's activities affect the rest of their metrics?"
       }
     }
   }
