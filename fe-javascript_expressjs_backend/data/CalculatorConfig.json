@@ -75,12 +75,12 @@
       "disclaimer": {
         "name": "disclaimer",
         "title": "Disclaimer",
-        "content": "***<i>This character's activities and metrics will be affected.</i>"
+        "content": "***<i>A character's activities and metrics will dynamically change based on decisions and interactions.</i>"
       },
       "story": {
         "name": "story",
         "title": "The Story",
-        "content": "How does a character's activities affect the rest of their metrics?"
+        "content": "How do a character's activities shape their stats and overall well-being?"
       }
     }
   }
