@@ -1,17 +1,19 @@
 ## About ELTsim
-A test run & use case of [EvoELT](https://github.com/KenennaOkeke/EvoELT).
+A test run & use case of [EvoELT](https://github.com/KenennaOkeke/EvoELT). 
 
-### Overview
-A tool for setting and managing Sims activities with AI-powered analysis. It tracks activity schedules, metrics, and patterns over time, revealing how activities affect happiness, energy, relationships, and more—providing real-time insights and data-driven recommendations.
+ELTsim is a Sims-inspired tool designed to optimize character activities through AI-powered insights and data-driven recommendations. By integrating with EvoELT, ELTsim tracks activity schedules, metrics, and patterns over time to reveal how actions affect key character traits like happiness, energy, and relationships. It provides real-time analysis to help players make informed decisions and maximize outcomes for their virtual characters.
 
 ### Frontend
 ![ELTsim Frontend](images/frontend.png)
 
+
 ### Structure
-- `fe-vuejs_frontend` frontend interface for setting character activities
-- `fe-javascript_expressjs_backend` backend supporting the activity interface
+ELTsim combines a Vue.js-based frontend with a backend powered by JavaScript and Python. EvoELT serves as the backbone, processing raw event data and providing processed insights.
+
+- `fe-vuejs_frontend` frontend interface for setting character activities and viewing recommendations
+- `fe-javascript_expressjs_backend` backend for activity management
 - `int-javascript_expressjs_backend` draft implementation for authentication and grouping
-- `util-python_message_queueing` integration with EvoELT using message queuing
+- `util-python_message_queueing` integration with EvoELT via message queuing
 
 ### How to run
 1. Dockerize EvoELT
