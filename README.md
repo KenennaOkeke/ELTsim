@@ -12,7 +12,6 @@ ELTsim combines a Vue.js-based frontend with a backend powered by JavaScript and
 
 - `fe-vuejs_frontend` frontend interface for setting character activities and viewing recommendations
 - `fe-javascript_expressjs_backend` backend for activity management
-- `int-javascript_expressjs_backend` draft implementation for authentication and grouping
 - `util-python_message_queueing` integration with EvoELT via message queuing
 
 ### How to run
